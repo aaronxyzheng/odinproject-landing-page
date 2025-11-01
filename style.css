@@ -133,6 +133,76 @@ body {
     margin-bottom: 30px;
 }
 
+.quote-section {
+    flex: 0 0 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 100px 200px;
+
+    background-color: #e5e7eb
+}
+
+.quote-section .quote {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 36px;
+    color: #1F2936;
+    font-weight: 300;
+}
+
+.quote-section .quote .citation {
+    align-self: flex-end;
+    margin-right: 100px;
+}
+
+.cta-section {
+    flex: 0 0 400px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 100px;
+
+}
+
+.cta-section .content {
+    flex: 1;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 10px;
+    padding: 50px 250px;
+    background-color: #3882F6;
+}
+
+.cta-section .content .text {
+    color: white;
+}
+
+.cta-section .content .text .header-text {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.cta-section .content button {
+    width: 100px;
+    height: 50px;
+
+    background-color: #3882F6;
+    font-size: 18px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
 .footer {
     background-color: #1F2937;
 }
